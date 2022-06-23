@@ -1,0 +1,23 @@
+{
+    "name": "dinarys/core",
+    "description": "Dinarys core tab for Magento 2 admin panel",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Dinarys",
+            "email": "support@dinarys.com",
+            "homepage": "https://dinarys.com",
+            "role": "Technical Support"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Dinarys\\Core\\": ""
+        }
+    }
+}
